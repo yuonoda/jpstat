@@ -9,13 +9,11 @@ homepage = "https://github.com/alalalalaki/jpstat"
 repository = "https://github.com/alalalalaki/jpstat"
 keywords = ["estat", "japan", "statistics", "economics", "data"]
 
-
-
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7,<4.0"
 pandas = ">=1.5,<3.0"
-requests = "^2.0"
-requests_html = "^0.10.0"
+requests = "^2"
+requests-html = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
